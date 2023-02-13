@@ -13,9 +13,15 @@ int usernumberB = Convert.ToInt32(answerB);
 
 if (usernumberA > usernumberB)
 {
-  Console.WriteLine($"max={usernumberA}, min={usernumberB}");
+  Console.Write("max=");
+  Console.Write(usernumberA);
+  Console.Write(" min=");
+  Console.Write(usernumberB);
 }
 else if (usernumberA < usernumberB)
 {
-  Console.WriteLine($"max={usernumberB}, min={usernumberA}");
+  Console.Write("max=");
+  Console.Write(usernumberB);
+  Console.Write(" min=");
+  Console.Write(usernumberA);
 }
